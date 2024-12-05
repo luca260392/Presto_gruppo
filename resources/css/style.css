@@ -1,0 +1,101 @@
+:root {
+    --engineering-orange: #ba2d0bff;
+    --honeydew: #d5f2e3ff;
+    --cambridge-blue: #73ba9bff;
+    --british-racing-green: #003e1fff;
+    --night: #01110aff;
+}
+
+
+
+
+
+body{
+    font-family: "Varela Round", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.navbar {
+    background-color: var(--cambridge-blue);
+    padding: 1rem 0;
+}
+
+.navbar-nav .nav-link {
+    color: var(--night);
+    margin: 0 1rem;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: var(--honeydew);
+    color: var(--engineering-orange);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    color: var(--engineering-orange);
+}
+
+.fa-shopping-bag {
+    color: var(--night);
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: var(--honeydew);
+}
+
+.footer input {
+    border: 2px solid var(--night);
+}
+
+.footer input:focus {
+    border-color: var(--engineering-orange);
+    box-shadow: none;
+}
+
+.footer .btn-primary {
+    background-color: var(--night);
+    border: none;
+}
+
+.footer .btn-primary:hover {
+    background-color: var(--engineering-orange);
+}
+
+.footer-links a {
+    color: var(--night);
+    text-decoration: none;
+    margin-left: 1rem;
+    display: block;
+}
+
+.footer-links a:hover {
+    color: var(--cambridge-blue);
+}
+
+.social-icons a {
+    color: var(--night);
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.social-icons a:hover {
+    color: var(--cambridge-blue);
+}
